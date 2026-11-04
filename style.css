@@ -61,6 +61,26 @@ header {
     color: var(--text-primary);
 }
 
+.brand-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 9px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 2px 8px rgba(0, 113, 227, 0.2);
+}
+
+.hero-app-icon {
+    width: 92px;
+    height: 92px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 12px 32px rgba(0, 113, 227, 0.22), 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    display: inline-block;
+}
+
 .brand-icon {
     width: 36px;
     height: 36px;
@@ -389,3 +409,4 @@ footer a:hover {
         gap: 12px;
     }
 }
+
