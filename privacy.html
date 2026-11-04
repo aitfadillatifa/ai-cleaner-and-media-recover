@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — AI Cleaner and Media Recover</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Privacy Policy for AI Cleaner and Media Recover iOS Application. 100% on-device processing with zero cloud data storage.">
+</head>
+<body>
+
+<header>
+    <div class="nav-container">
+        <a href="index.html" class="brand">
+            <div class="brand-icon">🛡️</div>
+            <span class="brand-title">AI Cleaner & Media Recover</span>
+        </a>
+        <nav>
+            <a href="index.html">Overview</a>
+            <a href="privacy.html" class="active">Privacy Policy</a>
+            <a href="terms.html">Terms of Use</a>
+            <a href="contact.html">Support</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <div class="page-hero">
+        <div class="badge">🔒 100% On-Device Architecture</div>
+        <h1 class="page-title">Privacy Policy</h1>
+        <p class="page-subtitle">Your personal photos, videos, and private files remain entirely in your control on your device.</p>
+        <p class="meta-info">Application: <strong>AI Cleaner and Media Recover</strong> (Bundle ID: <code>com.aimediarocever.cleaner</code>)<br>Developer: <strong>Latifa Ait Fadil</strong> &bull; Effective Date: November 4, 2026</p>
+    </div>
+
+    <article class="legal-card">
+        <section class="legal-section">
+            <h2>1. Introduction & Core Principle</h2>
+            <p>Welcome to <strong>AI Cleaner and Media Recover</strong> ("the Application"), developed and operated by <strong>Latifa Ait Fadil</strong> ("the Developer", "we", "our", or "us"). We recognize that your personal photos, videos, audio recordings, and documents contain intimate, private, and sensitive memories. We are deeply committed to protecting your privacy.</p>
+            <div class="callout success">
+                <p><strong>Fundamental Privacy Guarantee:</strong> The Application is engineered with a strict <strong>zero-cloud, on-device architecture</strong>. We do not operate remote servers that collect, store, transmit, or inspect your personal media files. All scans, duplicate detections, media enhancements, and recovery algorithms execute 100% locally on your iPhone hardware using Apple's Vision, Core Image, and PhotoKit frameworks.</p>
+            </div>
+        </section>
+
+        <section class="legal-section">
+            <h2>2. Information We DO NOT Collect</h2>
+            <p>To provide complete transparency, we explicitly state what is <strong>never</strong> collected, transmitted, or stored on external servers:</p>
+            <ul>
+                <li><strong>No Media Uploads:</strong> Your photos, videos, bursts, screenshots, and audio memos never leave your device. We have no access to view or download your camera roll.</li>
+                <li><strong>No Biometric Data:</strong> When utilizing Face ID or Touch ID for the Private Media Vault, authentication is handled solely by iOS hardware through the Apple Secure Enclave. Biometric tokens or scans are never accessible to our code.</li>
+                <li><strong>No Contact Books or Personal Identifiers:</strong> We do not collect your personal name, physical address, phone number, contacts list, or social media accounts.</li>
+                <li><strong>No User Account Creation:</strong> You do not need to register an account or create a password to use the application.</li>
+            </ul>
+        </section>
+
+        <section class="legal-section">
+            <h2>3. Permissions Requested & Operational Purpose</h2>
+            <p>The Application requests system permissions strictly to perform the functions you explicitly trigger:</p>
+
+            <h3>A. Photo Library Access (<code>PHPhotoLibrary</code>)</h3>
+            <p>Requested when accessing recovery, cleaning, or enhancement tools. Used solely on-device to:</p>
+            <ul>
+                <li>Identify duplicate and similar photos using perceptual image hashing.</li>
+                <li>Detect blurry photos and uncompressed burst sequences locally.</li>
+                <li>Surface recently deleted or orphaned cache fragments for recovery to your camera roll.</li>
+                <li>Execute deletions that you explicitly confirm, safely relocating items to your iOS "Recently Deleted" album.</li>
+            </ul>
+
+            <h3>B. Local Biometric Authentication (Face ID / Touch ID)</h3>
+            <p>Utilized through Apple's standard <code>LocalAuthentication</code> API to unlock your Private Media Vault. All credentials and cryptographic keys are secured inside your device's Keychain and Secure Enclave.</p>
+
+            <h3>C. App Tracking Transparency (ATT) & Advertising</h3>
+            <p>For users on our free tier, the Application integrates Google Mobile Ads (AdMob) and Apple's App Tracking Transparency framework:</p>
+            <ul>
+                <li>If you grant tracking permission, standard advertising identifiers (such as IDFA) are used by Google AdMob to deliver personalized ads.</li>
+                <li>If you deny tracking permission, non-personalized contextual advertisements are displayed instead.</li>
+                <li>Subscribers to <strong>AI Cleaner PRO</strong> experience an entirely ad-free environment with ad SDK trackers disabled.</li>
+            </ul>
+        </section>
+
+        <section class="legal-section">
+            <h2>4. Private Media Vault & Cryptographic Protection</h2>
+            <p>Media files imported into the Private Vault are protected using industry-standard <strong>AES-256 (Advanced Encryption Standard)</strong> encryption. The encrypted payloads are stored in the Application's sandboxed local container on your device. The encryption key is randomly generated and locked inside the iOS Keychain. Neither the Developer nor any third party possesses a master key or backdoor to decrypt vault files.</p>
+        </section>
+
+        <section class="legal-section">
+            <h2>5. Subscriptions & Apple In-App Purchases</h2>
+            <p>All in-app purchases and auto-renewable subscriptions are processed directly through <strong>Apple StoreKit 2</strong> and the Apple App Store. The Developer does not collect, receive, or store your credit card details, billing address, or payment credentials. Transaction handling, receipt validation, and subscription management are governed entirely by Apple Media Services Terms and Conditions.</p>
+        </section>
+
+        <section class="legal-section">
+            <h2>6. Third-Party Service Providers</h2>
+            <p>The Application utilizes trusted third-party SDKs strictly for operational advertising and compliance:</p>
+            <ul>
+                <li><strong>Apple StoreKit:</strong> In-App Purchase and subscription verification.</li>
+                <li><strong>Google Mobile Ads (AdMob) & User Messaging Platform (UMP):</strong> Delivers advertising banners, interstitials, and GDPR/CCPA privacy consent dialogs for free users. Subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+            </ul>
+        </section>
+
+        <section class="legal-section">
+            <h2>7. Data Retention & Permanent Deletion</h2>
+            <p>Because your files are stored locally on your device:</p>
+            <ul>
+                <li>Items marked for deletion are relocated to the native iOS "Recently Deleted" album, where Apple retains them for 30 days before permanent deletion, allowing you to restore them at any time.</li>
+                <li>Uninstalling the Application permanently purges the local sandboxed application data, including any files stored in the Private Vault that have not been exported back to your photo library.</li>
+            </ul>
+        </section>
+
+        <section class="legal-section">
+            <h2>8. Children's Privacy (COPPA & GDPR-K)</h2>
+            <p>The Application is designed for general audiences and complies with the Children's Online Privacy Protection Act (COPPA) and Article 8 of the GDPR. We do not knowingly collect personal identifiable information from children under the age of 13 (or under 16 in certain European jurisdictions).</p>
+        </section>
+
+        <section class="legal-section">
+            <h2>9. Your Legal Rights (GDPR & CCPA/CPRA)</h2>
+            <p>Under regulations including the General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA/CPRA), users possess rights to data access, rectification, and erasure. Because the Developer maintains no remote database of user data, you hold full self-service execution over all media directly through the iOS interface and device settings.</p>
+        </section>
+
+        <section class="legal-section">
+            <h2>10. Updates to This Policy</h2>
+            <p>We reserve the right to revise this Privacy Policy periodically to reflect legal amendments, technological improvements, or Apple App Store review updates. Any modifications will be posted to this page with an updated Effective Date.</p>
+        </section>
+
+        <section class="legal-section">
+            <h2>11. Contact Information</h2>
+            <p>If you have any questions, concerns, or requests regarding this Privacy Policy or on-device data handling, please contact:</p>
+            <p><strong>Latifa Ait Fadil</strong><br>
+            Developer, AI Cleaner and Media Recover<br>
+            Email: <a href="mailto:l.aitfadil7392@uca.ac.ma">l.aitfadil7392@uca.ac.ma</a><br>
+            Support Center: <a href="contact.html">ai-cleaner-and-media-recover/contact.html</a></p>
+        </section>
+    </article>
+</main>
+
+<footer>
+    <div class="nav-container">
+        <p>&copy; 2026 Latifa Ait Fadil. All rights reserved.</p>
+        <p>
+            <a href="index.html">Overview</a> &bull;
+            <a href="privacy.html">Privacy Policy</a> &bull;
+            <a href="terms.html">Terms of Use</a> &bull;
+            <a href="contact.html">Contact Us</a>
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
